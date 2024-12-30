@@ -4,7 +4,7 @@ spring:
 #    jdbc-url: jdbc:mysql://localhost:3306/spring_demo
     jdbc-url: jdbc:postgresql://localhost:5432/spring_demo
     username: postgres
-    password: godson
+    password:
     driver-class-name: org.postgresql.Driver
 #    baseline-on-migrate: true
 #    validate-on-migrate: false
@@ -18,7 +18,7 @@ spring:
 #    enabled: true
 #    url: jdbc:mysql://localhost:3306/spring_demo
 #    user: root
-#    password: chinonyerem
+#    password:
 #    locations: classpath:db/migration
 
 
