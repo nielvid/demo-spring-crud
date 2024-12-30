@@ -1,0 +1,24 @@
+
+spring:
+  datasource:
+#    jdbc-url: jdbc:mysql://localhost:3306/spring_demo
+    jdbc-url: jdbc:postgresql://localhost:5432/spring_demo
+    username: postgres
+    password: godson
+    driver-class-name: org.postgresql.Driver
+#    baseline-on-migrate: true
+#    validate-on-migrate: false
+#    driver-class-name:  com.mysql.cj.jdbc.Driver
+    hikari:
+      pool-name: SQLHikariCP
+      maximum-pool-size: 10
+  application:
+    name:demo
+#  flyway:
+#    enabled: true
+#    url: jdbc:mysql://localhost:3306/spring_demo
+#    user: root
+#    password: chinonyerem
+#    locations: classpath:db/migration
+
+
